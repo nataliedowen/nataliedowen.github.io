@@ -38,6 +38,10 @@ header img {
     float: right;
 }
 
+header {
+    padding: 20px;   
+}
+
 footer {
     font-size: 0.7em;
 }
