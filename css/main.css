@@ -25,9 +25,11 @@ header, main, footer {
 }
 
 header, footer, footer a {
+
     text-align: center;
     background-color: #876569;
     color: whitesmoke;
+    border-radius: 25px;
 }
 
 header img {
