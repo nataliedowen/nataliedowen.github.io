@@ -17,6 +17,9 @@ h2 {
     text-align: left;
     border-bottom: 1px solid #bbb;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
 
 header, main, footer {
     margin: 1.25rem auto;
@@ -35,7 +38,6 @@ header, footer, footer a {
 header img {
     width: auto;
     height: auto;
-    float: right;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
