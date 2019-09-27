@@ -1,6 +1,15 @@
-@media only screen and (min-width: 32.5em){
-    /* For mobile phones: */
+@media only screen and (min-width: 32.5em) {
+    /* For tablets: */
+    
     main {
-        column-count: 2; 
+        grid-template-columns: 1fr 1fr; 
+
     }
+
+    #sec3 {
+        grid-column: span 2;
+    }
+
+
+
 }
