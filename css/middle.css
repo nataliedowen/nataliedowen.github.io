@@ -1,13 +1,10 @@
 @media only screen and (min-width: 32.5em) {
     h1 {
-        font-size: 1.9rem;
-        color: whitesmoke;  
+        font-size: 1.9rem; 
     }
 
      h2 {
-        font-size: 1.2rem;
-        text-align: left;
-        border-bottom: 1px solid #bbb; 
+        font-size: 1.2rem; 
      }
 
      header img {
