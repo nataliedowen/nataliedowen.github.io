@@ -35,13 +35,19 @@ section {
     border-style: solid;
     border-width: 1px;
     border-color: #34444e;
-    margin-top: 20px;
+    margin-top: 20px;g
 
     
 }
 
 section p {
     padding-left: 8px;  
+}
+
+section a {
+    padding-left: 8px;
+    color: rgb(70, 70, 70)
+
 }
 
 img {
