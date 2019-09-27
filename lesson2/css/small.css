@@ -3,4 +3,6 @@ header, footer {
     text-align: center;
     background-color: #1b143f;
     color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
