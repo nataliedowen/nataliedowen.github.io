@@ -2,9 +2,14 @@
     /* For mobile phones: */
     main{
     grid-template-columns: 1fr 1fr 1fr; 
+    max-width: 1200px;
     }
 
     #sec3 {
         grid-column: span 1;
+    }
+
+    header, footer {
+        max-width: 1200px;
     }
 }
