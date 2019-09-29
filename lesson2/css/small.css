@@ -48,7 +48,8 @@ section {
 }
 
 section p {
-    padding-left: 8px;  
+    padding-left: 8px; 
+    padding-right: 8px; 
 }
 
 section a {
