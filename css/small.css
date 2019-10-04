@@ -8,6 +8,10 @@ body {
     
 }
 
+p {
+    color: darkgrey;
+}
+
 h1 {
     font-size: 1.5rem;
     color: whitesmoke;
@@ -17,6 +21,7 @@ h2 {
     font-size: 0.9rem;
     text-align: left;
     border-bottom: 1px solid #bbb;
+    color: black;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
