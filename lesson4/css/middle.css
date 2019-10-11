@@ -13,7 +13,12 @@
 		color: rgb(255, 255, 255);
     }
     footer {
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }

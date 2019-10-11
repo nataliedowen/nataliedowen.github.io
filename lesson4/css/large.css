@@ -1,0 +1,15 @@
+@media only screen and (min-width: 67em) {
+    footer {
+        max-width: 985px;
+        margin-left: auto;
+        margin-right: auto;
+                
+    }
+
+    main {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}

@@ -1,4 +1,4 @@
-* {margin-left: auto; margin-right: auto;}
+
 
 header {
     background-color: #485665;
@@ -7,32 +7,57 @@ header {
     padding-top: 20px;
 }
 
-.header-container {
-  border-bottom: 5px solid white;
-  padding-bottom: 10px;
-
+body {
+	background-color: #bbb;
+	padding: 0;
+	margin: 0;
 }
-h1 {
-  display: block;
+
+.header {
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+  justify-content:center;
+  border-bottom: 3px solid white;
   
 }
 
-header h4 {
-  display: block;
-  font-family: 'Roboto', sans-serif;
-  font-size: .9rem;
-
-}
-
 header img {
-  float: left;
-  margin-top: -15px;
-  margin-left: 10px;
+	width: 80px;
+	height: auto;
 }
 
-main {
-    padding-left: 15px;
-    padding-right: 15px;
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: rgb(49, 49, 49);
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+
+main h1 {
+  text-align: center;
+}
+
+main section {
+  background-color: lightgray;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px dashed grey;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -89,7 +114,7 @@ ul {
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-	background-color: #000;
+	background-color: #485665;
 }
 
 .navigation {
@@ -111,9 +136,9 @@ nav {
 	text-decoration: none;
 }
 .navigation a:hover {
-	color: #000;
+	color: #485665;
 	background-color: #fff;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .responsive li {
