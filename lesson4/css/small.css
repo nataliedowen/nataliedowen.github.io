@@ -7,15 +7,27 @@ header {
     padding-top: 20px;
 }
 
-h .flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.header-container {
+  border-bottom: 5px solid white;
+  padding-bottom: 10px;
+
+}
+h1 {
+  display: block;
+  
 }
 
-#subhead {
-  margin-bottom: 20px;
+header h4 {
+  display: block;
   font-family: 'Roboto', sans-serif;
+  font-size: .9rem;
+
+}
+
+header img {
+  float: left;
+  margin-top: -15px;
+  margin-left: 10px;
 }
 
 main {
@@ -52,6 +64,8 @@ ul {
     color: rgb(255, 255, 255);
     padding: 8px 16px;
     text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
     
   }
 
@@ -69,4 +83,39 @@ ul {
     text-align: center;
     color: white;
     background-color: #485665;
+
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #000;
+}
+
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #fff;
+	font-weight: 700;
+}
+
+.responsive li {
+	display: block;
 }

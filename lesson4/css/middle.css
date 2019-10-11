@@ -1,4 +1,19 @@
-@media only screen and (min-width: 37.5em) {
-    nav ul { display: flex; }
-	nav ul li { flex: 1 1 100%; }
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: rgb(255, 255, 255);
+    }
+    footer {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
