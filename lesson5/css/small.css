@@ -1,5 +1,9 @@
-
-
+@media only screen and (min-width:0) and (max-width: 67em) {
+  #hide { 
+    display: none;
+   }
+  }
+  
 header {
     background-color: #485665;
     text-align: center;
