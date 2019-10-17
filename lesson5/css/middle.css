@@ -1,0 +1,24 @@
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: rgb(255, 255, 255);
+    }
+    footer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
