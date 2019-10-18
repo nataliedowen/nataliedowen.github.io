@@ -11,7 +11,7 @@ header {
 }
 
 body {
-	background-color: #bbb;
+	background-color: rgb(255, 255, 255);
 	padding: 0;
 	margin: 0;
 }
@@ -54,13 +54,13 @@ main h1 {
 }
 
 main section {
-  background-color: lightgray;
+  background-color: #d6d6d6;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: 2px dashed grey;
+  border: 2px solid rgb(107, 107, 107);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -100,7 +100,7 @@ ul {
   }
 
   footer {
-    margin-top: 30px;
+    margin-top: 0px;
     font-size: 0.7em;
     line-height: 1.5em;
     padding: 10px;
@@ -116,6 +116,11 @@ nav {
 	background-color: #485665;
 }
 
+nav li {
+display: block;
+white-space:nowrap;
+}
+
 .navigation {
 	list-style-type: none;
 	text-align: center;
@@ -125,7 +130,7 @@ nav {
 	display: block;
 }
 .navigation li {
-	display: none;
+  display: none;
 }
 .navigation a {
 	display: block;
@@ -141,17 +146,19 @@ nav {
 }
 
 .responsive li {
-	display: block;
+  display: block;
+  white-space: nowrap
 }
 
 .announcment {
   background-color: #fff;
   color: black;
   font-size: .9em;
-  padding: 3px;
+  padding: 5px;
   font-family: 'Roboto', sans-serif;
   margin-top: 0px;
   margin-bottom: 10px;
+  box-shadow: 0 0 30px #111;
 }
 
 main {
@@ -168,7 +175,7 @@ h1 {
   position: relative;
   display: flex;
 }
-.herodiv, img {
+.herodiv img {
 width: 100%;
 display: flex;
 }
@@ -188,9 +195,56 @@ h1, h2, p {
 	opacity: .8;
 }
 
+.stats p {
+  line-height: 10%;
+}
+
 .forest{
   max-width: 250px;
-  float: right;
-  display:inline-flex;
+  display: flex;
+  margin-left:auto;
+  margin-right: auto;
   padding: 10px;
+}
+
+.map {
+  max-width: 307px;
+ float: left;
+ display: flex;
+}
+
+.contact {
+  background-color: rgb(151, 151, 151);
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+
+.social {
+  padding-top: 20px;
+  padding-left: 10px;
+  max-height: 40px;
+}
+table{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+th, td {
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 2px solid #ddd;
+  background-color: #d6d6d6
+
+}
+.sun {
+  max-width: 30px;
 }
