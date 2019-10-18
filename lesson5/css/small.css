@@ -54,7 +54,7 @@ main h1 {
 }
 
 main section {
-  background-color: #d6d6d6;
+  background-color: rgb(213, 219, 230);
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
@@ -65,7 +65,7 @@ main section {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
-    padding:10px;
+    padding: 5px;
 }
 
 p {
@@ -214,7 +214,7 @@ h1, h2, p {
 }
 
 .contact {
-  background-color: rgb(151, 151, 151);
+  background-color: rgb(177, 188, 207);
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
@@ -224,11 +224,12 @@ h1, h2, p {
 }
 
 
-.social {
+.fab {
   padding-top: 20px;
-  padding-left: 10px;
+  padding-left: 30px;
   max-height: 40px;
 }
+
 table{
   margin-top: 40px;
   margin-bottom: 40px;
@@ -241,8 +242,10 @@ table{
 th, td {
   padding-left: 15px;
   padding-right: 15px;
-  border: 2px solid #ddd;
-  background-color: #d6d6d6
+  padding-top:5px;
+  padding-bottom: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(177, 188, 207)
 
 }
 .sun {
