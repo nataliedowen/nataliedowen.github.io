@@ -8,7 +8,6 @@ header {
     background-color: #485665;
     text-align: center;
     color: white;
-    padding-top: 20px;
 }
 
 body {
@@ -70,12 +69,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: 'Roboto', sans-serif;
-}
-
-h3 { 
-    margin-top: 30px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid black;
 }
 
 ul {
@@ -147,4 +140,14 @@ nav {
 
 .responsive li {
 	display: block;
+}
+
+.announcment {
+  background-color: #fff;
+  color: black;
+  font-size: .9em;
+  padding: 3px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
