@@ -65,10 +65,12 @@ main section {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
+    padding:10px;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
+  padding:10px;
 }
 
 ul {
@@ -150,4 +152,45 @@ nav {
   font-family: 'Roboto', sans-serif;
   margin-top: 0px;
   margin-bottom: 10px;
+}
+
+main {
+  margin:0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size:2.5rem;
+  text-shadow:3px 3px 5px #777;}
+
+.herodiv {
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+}
+.herodiv, img {
+width: 100%;
+display: flex;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.stats {
+	position: absolute;
+	top: -5px;
+	right: 15px;
+	background: radial-gradient(#eee, #8998b6);
+	border: 1px solid #000;
+	padding: .5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+}
+
+.forest{
+  max-width: 250px;
+  float: right;
+  display:inline-flex;
+  padding: 10px;
 }
