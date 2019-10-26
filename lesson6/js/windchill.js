@@ -10,3 +10,4 @@ f.toFixed(2)
 document.getElementById("natalie").innerHTML = f.toFixed(2);
 
 console.log(f);
+

@@ -1,3 +1,15 @@
+
+var today = new Date(); 
+var localeDate = new Intl.DateTimeFormat("en-GB", {
+   weekday: "long",
+   year: "numeric",
+   month: "long",
+   day: "numeric"
+});
+
+document.getElementById('timestamp').innerHTML = localeDate.format(today);
+
+
 function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
