@@ -177,7 +177,6 @@ h1 {
 }
 
 .myimg {
-  align-content: center;
   width: 100%;
   display: flex;
   margin-left: auto;
