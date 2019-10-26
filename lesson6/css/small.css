@@ -175,10 +175,15 @@ h1 {
   position: relative;
   display: flex;
 }
-.herodiv img {
-width: 100%;
-display: flex;
+
+.myimg {
+  align-content: center;
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 h1, h2, p {
   margin: 0;

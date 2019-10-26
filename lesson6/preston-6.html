@@ -26,12 +26,7 @@
 
             <div class="header">
             <picture>
-                <img src="images/cit230_image_franklinOriginal_250px.jpg" alt="Picture of a sunnny day" 
-                    srcset="images/cit230_image_franklinOriginal_250px.jpg 250w,
-                            images/cit230_image_franklinOriginal_500px.jpg 500w,
-                            images/cit230_image_franklinOriginal_800px 800w,
-                            "
-                >
+                <img src="images/logog-01.png" alt="The world logo">
             </picture>
             <section class="headings">
                 <h1>Fast Cast Weather</h1>
@@ -53,7 +48,26 @@
         <main> 
             <h1>Preston, Idaho</h1>
             <div class="herodiv">
-                <img src="images/300.jpg">
+                <picture class="myimg">
+                        <source media="(min-width: 800px)" srcset="./images/hero_1000px.jpg">
+                        <source media="(min-width: 500px)" srcset="./images/hero_800px.jpg">
+                        <source media="(min-width: 200px)" srcset="./images/hero_500px.jpg">
+                        <img src="./images/hero_500px.jpg" alt="Franklin County Landscape">
+
+
+                   <!--<img srcset="images/hero_500px.jpg 500w,
+                        images/hero_800px.jpg 800w,
+                        images/hero_1000px.jpg 1000w,
+                        "
+
+                        sizes="(max-width: 250px) 250px,
+                            (max-width: 600px) 500px, 800px" 
+
+                        src="hero_500w.jpg" alt="A sunny day">
+
+                    --> 
+
+                </picture>
                  <section class="stats">
                     <h2>Weather Summary</h2>
                     <p>Currently: Sunny</p>
