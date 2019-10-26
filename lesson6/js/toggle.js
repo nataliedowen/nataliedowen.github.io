@@ -1,4 +1,3 @@
-
 var today = new Date(); 
 var localeDate = new Intl.DateTimeFormat("en-GB", {
    weekday: "long",
