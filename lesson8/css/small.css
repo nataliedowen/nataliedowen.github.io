@@ -9,7 +9,22 @@ header {
     text-align: center;
     color: white;
 }
+.submitbutton{
+  border: none;
+    background-color:  #7c8792;;
+    color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    padding: 1.5rem 2rem;
+    margin: 0 0 2rem 2%;
+    width: 100%;
+    max-width: 20rem;
+}
 
+
+.submitbutton:hover{
+  background-color: #505c68;
+  cursor: pointer;
+}
 
 .header {
 	padding: 5px 0;
@@ -27,8 +42,8 @@ form{
   margin-left: auto;
   margin-right: auto;
 }
-.req {
-  border-right: 5px solid red; 
+#zip, #name, #phone {
+  border-left: 5px solid red; 
 }
 
 .width {
@@ -44,8 +59,8 @@ fieldset {
   margin: 15px;
   background-color: rgb(219, 219, 219);
   -webkit-border-radius: 8px;
--moz-border-radius: 8px;
-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
 }
 
 input {
@@ -61,6 +76,7 @@ label {
   margin-bottom: 20px;
   padding: 5px;
 }
+
 
 header img {
 	width: 80px;
@@ -183,5 +199,5 @@ main {
 h1 {
   text-align: center;
   font-size:2.5rem;
-  text-shadow:3px 3px 5px #777;}
+  text-shadow:3px 3px 10px #777;}
 

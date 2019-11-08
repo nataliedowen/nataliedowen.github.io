@@ -13,10 +13,7 @@
 		color: rgb(255, 255, 255);
 		display: block;
     }
-    footer {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+
 
     main {
         padding-left: 15px;
@@ -26,4 +23,6 @@
 	.width {
 		width: 50%;
 	}
+
+	
 }	

@@ -22,3 +22,7 @@ function toggleMenu() {
   function adjustRating(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
+
+  function thanks() {
+    window.location = "thanks.html"
+  }

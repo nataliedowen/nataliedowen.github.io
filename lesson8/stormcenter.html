@@ -39,8 +39,8 @@
                     <li><a href="#">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
                     <li><a href="#">Fish Haven</a></li>
-                    <li><a href="#">Storm Center</a></li>
-                    <li><a class="active" href="#">Gallery</a></li>
+                    <li><a class="active" href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
                 </ul>
             </nav>
         </header>
@@ -50,21 +50,21 @@
                 <fieldset>
                     <legend>Your Information:</legend>
                     <label for="name">Full Name: <br>
-                    <input class="width" class="req" type="text" id="name" name="name" required
-                        minlength="5">
+                    <input class="width" type="text" id="name" name="name" required
+                        minlength="5" pattern="A-Za-z0-9">
                 </label>
                 <label for="email">Email: <br>
-                    <input class="width" type="email" value="youremail@email.com" id="email"
+                    <input class="width" type="email" placeholder="youremail@email.com" id="email"
                         size="30" required>
                 </label>
 
                 <label for="phone">Phone Number: <br>
-                    <input class="width" class="req" type="tel" id="phone" name="phone"
+                    <input class="width" type="tel" id="phone" name="phone"
                         required>
                 </label>
 
                 <label for="zipcode">Zip Code: <br>
-                    <input class="width" class="req" type="number" id="zip" name="zip"
+                    <input class="width" type="number" id="zip" name="zip"
                         required>
                 </label>
                 </fieldset>   
@@ -93,14 +93,14 @@
             
                 <label for="region">Storm Region: <br>
                     <select class="width">
-                        <option disabled>Select Option</option>
+                        <option value="" disabled selected> Select Region...</option>
                         <option value="preston">Preston</option>
                         <option value="sodasprings">Soda Springs</option>
                         <option value="fishhaven">Fish Haven</option>
                     </select>
                 </label>
 
-                <label for="dangerlevel">In-Danger Level: <br>
+                <label for="dangerlevel">Are You In Danger?: <br>
                     <input type="radio" name="dangerlevel" value="yes"> Yes<br>
                     <input type="radio" name="dangerlevel" value="no"> No<br>
                     <input type="radio" name="dangerlevel" value="maybe"> Maybe<br> 
@@ -110,6 +110,7 @@
                     <textarea class="width"rows="4" ></textarea>
                 </label>
             </fieldset> 
+            <input class="submitbutton" type="button" onclick="thanks()" value="Report Storm">
             </form>
         </main>
         <footer>
