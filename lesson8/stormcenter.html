@@ -46,66 +46,30 @@
         </header>
         <main> 
             <h1>Weather Gallery</h1>
-            <div class="grid-container">
-                    <div class="grid-item">
-                        <picture>
-                             <img src="images/galleryplaceholder.jpg" data-src="images/fallday.jpg" alt="A crisp fall day"> 
-                        </picture>
-                        <figcaption>A crisp fall day</figcaption>
-                    </div>
-                    <div class="grid-item">
-                         <picture>
-                             <img src="images/galleryplaceholder.jpg" data-src="images/overcast.jpg" alt="Overcast sky over a field"> 
-                        </picture>
-                        <figcaption>An overcast Idaho day</figcaption>
-                    </div>
-                    <div class="grid-item">
-                        <picture>
-                             <img src="images/galleryplaceholder.jpg" data-src="images/rainyday.jpg" alt="Storm clouds approaching the mountains"> 
-                        </picture>
-                        <figcaption>Storm clouds approaching</figcaption>
-                    </div>
-                    <div class="grid-item">
-                        <picture>
-                            <img src="images/galleryplaceholder.jpg" data-src="images/snow.jpg" alt="Snow on an Idaho road"> 
-                        </picture>
-                        <figcaption>A snowy Idaho road</figcaption>
-                    </div>
-                    <div class="grid-item">
-                       <picture>
-                             <img src="images/galleryplaceholder.jpg" data-src="images/snowstorm.jpg" alt="Snow storm on the mountain"> 
-                        </picture>
-                        <figcaption>A snow storm seen from the mountain</figcaption>
-                    </div>
-                    <div class="grid-item">
-                        <picture>
-                            <img src="images/galleryplaceholder.jpg" data-src="images/storm.jpg" alt="A rainstorm"> 
-                        </picture>
-                        <figcaption>A rainstorm over an Idaho field</figcaption>
-                    </div>
-                    <div class="grid-item">
-                        <picture>
-                            <img src="images/galleryplaceholder.jpg" data-src="images/sunny.jpg" alt="A sunny summer day"> 
-                       </picture>
-                       <figcaption>A sunny summer day</figcaption>
-                    </div>
-                    <div class="grid-item">
-                        <picture>
-                                <img src="images/galleryplaceholder.jpg" data-src="images/thunder.jpg" alt="Thunder in the night"> 
-                        </picture>
-                        <figcaption>Thunder during the night.</figcaption>
-                    </div>
-                    <div class="grid-item">
-                        <picture>
-                            <img src="images/galleryplaceholder.jpg" data-src="images/warmcloudy.jpg" alt="A warm, cloudy sunset"> 
-                        </picture>
-                        <figcaption>A warm, cloudy sunset</figcaption>
-                    </div>
-                  </div> 
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required
+                    minlength="5" >
+
+                <label for="email">Email:</label>
+                <input type="email" value="youremail@email.com" id="email"
+                    size="30" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"
+                    required>
+    
+                <label for="zipcode">Zip Code:</label>
+                <input type="number" id="zip" name="zip"
+                    required>
+
+                <label for="date">Date of Storm:</label>
+                <input type="date" id="stormdate" name="stormdate">
+            </form>
         </main>
         <footer>
                 <p class="footer">&copy; <span id="copyYear">2020</span> | Fast Cast Weather | Natalie Owen
-                 <p class="mod"><span id="timestamp">Today</span></p>
+                <p class="mod"><span id="timestamp">Today</span></p>
         </footer>
     </body>
     <script src="lazyload.js"></script>
