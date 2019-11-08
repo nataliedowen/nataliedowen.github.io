@@ -18,3 +18,7 @@ function toggleMenu() {
     var s = document.getElementById(+d.getDay());
     s.style.display = (s.style.display == 'block') ? 'none' : 'block';
   }
+
+  function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
