@@ -3,9 +3,12 @@ table, th, td {
     border-collapse: collapse;
     padding: 8px;
     font-family: 'Ubuntu', sans-serif;
-    
+
 }
 
+table {
+    box-shadow: 7px 10px 12px #628ca6;
+}
 td {
     text-align: center;
 }
@@ -24,7 +27,7 @@ td {
 thead tr td {
     background-color: #7fb9c2; 
     font-size: 1.5em;
-    font-weight: 900; 
+    font-weight: 700; 
 }
 
 tfoot tr td {
