@@ -1,3 +1,44 @@
-div.cards name{
-    
+@media only screen and (min-width:0) and (max-width: 32.5em) {
+
+     div.cards {
+      grid-template-columns: 1fr;
+    }
+
 }
+
+@media only screen and (min-width: 32.5em) {
+
+	div.cards {
+		grid-template-columns: 1fr 1fr;
+	}
+}	
+
+@media only screen and (min-width: 67em) {
+
+      div.cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
+
+div.cards {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    background-color:  rgb(190, 190, 190);
+    box-shadow: 5px 10px 8px #888888;
+}
+
+div.cards section {
+    background-color:#b3abd4;
+    margin: 20px;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+

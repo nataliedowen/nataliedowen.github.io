@@ -22,17 +22,17 @@ div.cards {
   text-align: center;
 }
 
-div.cards section{
+div.cards section {
  background-color: rgb(190, 190, 190);
  margin: 20px;
  box-shadow: 5px 10px 8px #888888;
 }
 
-div.cards h3{
+div.cards h3 {
   color: #485665;
  }
 
- div.cards h2{
+ div.cards h2 {
   color: #232a31;
   text-shadow:3px 3px 10px #777;
 
@@ -48,7 +48,7 @@ div.cards h3{
 }
 
 
-form{
+form {
   margin: 10px;
   font-family: 'Roboto', sans-serif;
   margin-left: auto;
