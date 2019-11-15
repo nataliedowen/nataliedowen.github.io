@@ -14,4 +14,10 @@
     }
     .grid-item:hover {
       box-shadow: 0 0 20px #333;}
+
+      div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+      }
     }
