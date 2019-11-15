@@ -1,16 +1,15 @@
-div.cards name, tagline, date, population, rain{
-    display: block;
+div.cards h2, h3, p{
     text-align: center;
 
+}
+
+div.cards img {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-}
-
-div.cards name {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
 }
