@@ -15,17 +15,16 @@ fetch(requestURL)
             let location = document.createElement('location');
             let image = document.createElement('image');
 
-        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-        date.textContent = prophets[i].birthdate; 
-        location.textContent = prophets[i].birthplace;
-        image.setAttribute('src', prophets[i].imageurl);
+            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+            date.textContent = 'Date of Birth ' + prophets[i].birthdate; 
+            location.textContent = 'Place of Birth ' + prophets[i].birthplace;
+            image.setAttribute("src", prophets[i].imageurl);
 
+            card.appendChild(h2);
+            card.appendChild(date);
+            card.appendChild(location);
+            card.appendChild(image);
 
-        card.appendChild(h2);
-        card.appendChild(date);
-        card.appendChild(location);
-        card.appendChild(image);
-
-        document.querySelector('div.cards').appendChild(card);
-         }
+            document.querySelector('div.cards').appendChild(card);
+    }
 });
