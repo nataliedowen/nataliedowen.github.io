@@ -24,18 +24,19 @@ div.cards {
     display: grid;
     grid-template-rows: auto;
     text-align: center;
-    background-color:  rgb(190, 190, 190);
+    background-color:  rgb(224, 224, 224);
     box-shadow: 5px 10px 8px #888888;
 }
 
 div.cards section {
-    background-color:#b3abd4;
+    background-color:#cbc5e4;
     margin: 20px;
+    padding-bottom: 30px;
 
 }
 
 img {
-    max-width: 100%;
+    max-width: 70%;
 }
 
 h1 {
