@@ -16,6 +16,11 @@ header {
     color: white;
 }
 
+.wireframe {
+  max-width: 50%;
+  display: block;
+}
+
 div.cards {
   display: grid;
   grid-template-rows: auto;
