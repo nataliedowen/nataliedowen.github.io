@@ -35,8 +35,8 @@ div.cards section {
 
 }
 
-img {
-    max-width: 70%;
+div.cards img {
+    max-width: 50%;
 }
 
 h1 {

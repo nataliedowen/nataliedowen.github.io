@@ -23,13 +23,14 @@ div.cards {
 }
 
 div.cards section {
- background-color: rgb(190, 190, 190);
+ background-color: rgb(188, 195, 207);
  margin: 20px;
- box-shadow: 5px 10px 8px #888888;
+ box-shadow: 5px 10px 8px #abaebb;
 }
 
-div.cards h3 {
-  color: #485665;
+div.cards h4 {
+  color: #646464;
+
  }
 
  div.cards h2 {
