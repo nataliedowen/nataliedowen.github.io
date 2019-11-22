@@ -12,13 +12,12 @@ document.getElementById('timestamp').innerHTML = localeDate.format(today);
 function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
- /*///
-  function showhide() {
 
+  function showhide() {
 
       var x = document.getElementById("5");
       var day = weekday[now.getDay()];
-      if (day == weekday[3]) {
+      if (day == weekday[5]) {
         x.style.display = "block";
       } 
       else {
@@ -26,6 +25,5 @@ function toggleMenu() {
       }
     }
     
- /*///
 
  

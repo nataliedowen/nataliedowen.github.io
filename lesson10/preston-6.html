@@ -50,7 +50,7 @@
                 <picture class="myimg">
                         <source media="(min-width: 800px)" srcset="./images/hero_1000px.jpg">
                         <source media="(min-width: 500px)" srcset="./images/hero_800px.jpg">
-                        <source media="(min-width: 200px)" srcset="./images/hero_500px.jpg">
+                        <source media="(min-width: 40px)" srcset="./images/hero_600px.jpg">
                         <img src="./images/hero_500px.jpg" alt="Franklin County Landscape">
                 </picture>
 
@@ -60,25 +60,25 @@
                     <p>Temperature: <span id="temp"></span>&deg; F</p>
                     <p>Humidity: <span id="humidity"></span>%</p>
                     <p>Wind Speed: <span id="wind-speed"></span> mph</p>
-                    <p>Wind Chill: <span id="natalie"></span></p>
+                    <p>Wind Chill: <span id="natalie"></span>&deg; F</p>
                  </section>
             </div>
             </section>
             <div id="hide">
                 <table>
                      <tr>
-                        <th>Wed</th>
-                        <th>Th</th> 
-                        <th>Fri</th>
-                        <th>Sat</th>
-                        <th>Sun</th>
+                        <th><span id="day1"></span></th>
+                        <th><span id="day2"></span></th> 
+                        <th><span id="day3"></span></th>
+                        <th><span id="day4"></span></th>
+                        <th><span id="day5"></span></th>
                     </tr>
                     <tr>
-                        <td><img class="sun" src="images/sun.png"><br> 72</td>
-                        <td><img class="sun" src="images/sun.png"><br> 80</td>
-                        <td><img class="sun" src="images/sun.png"><br> 69</td>
-                        <td><img class="sun" src="images/sun.png"><br> 81</td>
-                        <td><img class="sun" src="images/sun.png"><br> 78</td>
+                            <td><img id="icon1" src="" alt=""><br/><span id="temp1"></span> F</td>
+                            <td><img id="icon2" src="" alt=""><br/><span id="temp2"></span> F</td>
+                            <td><img id="icon3" src="" alt=""><br/><span id="temp3"></span> F</td>
+                            <td><img id="icon4" src="" alt=""><br/><span id="temp4"></span> F</td>
+                            <td><img id="icon5" src="" alt=""><br/><span id="temp5"></span> F</td>
                     </tr>
                  </table>
                 </div>

@@ -5,22 +5,14 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
     document.getElementById('temp').textContent = jsObject.main.temp;
-
-    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-const desc = jsObject.weather[0].description;  // note how we reference the weather array
-document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-document.getElementById('icon').setAttribute('alt', desc);
-  });
+    document.getElementById('humidity').textContent = jsObject.main.humidity;
+    document.getElementById('current-condition').textContent = jsObject.weather[0].description;;
+    document.getElementById('wind-speed').textContent = jsObject.wind.speed;
 
 
-
-
-var temp = 100;
-var speed = 10;
-
+var temp = jsObject.main.temp;
+var speed = jsObject.wind.speed;
 var exp = Math.pow(speed,0.16);
-
 var f = 35.74 + (0.6215 * temp) - (35.75 * exp) + (0.4275 * temp * exp);
 
 f.toFixed(2)
@@ -28,4 +20,13 @@ f.toFixed(2)
 document.getElementById("natalie").innerHTML = f.toFixed(2);
 
 console.log(f);
+});
 
+const apiURLf = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=d52c66367b251e31339fdb175f5737f2";
+
+fetch(apiURLf)
+  .then((response) => response.json())
+  .then((jsObject2) => {
+    console.log(jsObject2);
+
+});
