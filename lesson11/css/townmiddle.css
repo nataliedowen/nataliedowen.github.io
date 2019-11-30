@@ -65,5 +65,9 @@
 		left: 30px;
 	  }
 
+	  
+	  .map {
+		max-width: 50%;
+	}
 	
 }
