@@ -251,6 +251,15 @@ th, td {
   background-color: rgb(177, 188, 207)
 
 }
-.sun {
-  max-width: 30px;
+
+.events {
+  text-align: center;
+}
+
+div.events p {
+  line-height: 150%;
+}
+
+div.events h2 {
+  text-decoration-line: underline;
 }

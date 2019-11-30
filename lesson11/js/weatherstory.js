@@ -4,9 +4,7 @@ fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
-  .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    
+  .then(function (jsonObject) {    
     const towns = jsonObject['towns'];
 
     for (let i = 0; i < towns.length; i++ ) {
