@@ -1,0 +1,23 @@
+@media only screen and (min-width: 67em) {
+    footer {
+        margin-left: auto;
+        margin-right: auto;
+                
+    }
+    main {
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .grid-container {
+      grid-template-columns: auto auto auto;
+    }
+    .grid-item:hover {
+      box-shadow: 0 0 20px #333;}
+
+      div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+      }
+    }
