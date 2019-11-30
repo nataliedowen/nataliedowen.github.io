@@ -212,8 +212,8 @@ h1, h2, p {
 
 .map {
   max-width: 307px;
- float: left;
- display: flex;
+  float: left;
+  display: flex;
 }
 
 .contact {
