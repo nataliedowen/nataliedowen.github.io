@@ -69,7 +69,7 @@
 
                     <label for="type">Type of Storm: <br>
                         <input class="width" list="type" id="type" name="stormtype">
-                        <datalist id="type">
+                        <datalist>
                             <option value="Flash Flood">
                             <option value="Hail">
                             <option value="Hurricane">
@@ -86,10 +86,10 @@
             
                 <label for="region">Storm Region: <br>
                     <select id="width" class="width">
-                        <option value="" disabled selected> Select Region...</option>
-                        <option value="preston">Preston</option>
-                        <option value="sodasprings">Soda Springs</option>
-                        <option value="fishhaven">Fish Haven</option>
+                        <option id="region" value="" disabled selected> Select Region...</option>
+                        <option id="region" value="preston">Preston</option>
+                        <option id="region" value="sodasprings">Soda Springs</option>
+                        <option id="region" value="fishhaven">Fish Haven</option>
                     </select>
                 </label>
 
@@ -100,7 +100,7 @@
                 </label>
 
                 <label for="comments">Additional Information: <br>
-                    <textarea class="width"rows="4" ></textarea>
+                    <textarea for="extra" class="width" rows="4"></textarea>
                 </label>
             </fieldset> 
             <input type="submit" class="submitbutton" onclick="thanks()" value="Report Storm">
