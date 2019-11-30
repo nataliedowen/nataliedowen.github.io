@@ -26,6 +26,7 @@ div.cards {
   display: grid;
   grid-template-rows: auto;
   text-align: center;
+  
 }
 
 div.cards section {
@@ -34,9 +35,12 @@ div.cards section {
  box-shadow: 5px 10px 8px #abaebb;
 }
 
-div.cards h4 {
-  color: #646464;
-
+div.cards h3 {
+  color: #1d1d1d;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1em;
  }
 
  div.cards h2 {
