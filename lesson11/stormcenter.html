@@ -68,19 +68,26 @@
                     </label>
 
                     <label for="type">Type of Storm: <br>
-                        <input class="width" list="type" id="type" name="stormtype">
-                        <datalist>
-                            <option value="Flash Flood">
-                            <option value="Hail">
-                            <option value="Hurricane">
-                            <option value="Thunderstorm">
-                            <option value="Tornato">
+                        <input class="width" list="storms" id="type" name="stormtype">
+                        <datalist id="storms">
+                            <option value="Flash Flood"></option>
+                            <option value="Hail"></option>
+                            <option value="Hurricane"></option>
+                            <option value="Thunderstorm"></option>
+                            <option value="Tornato"></option>
                         </datalist>
                     </label>
                 
                     <label class="severity" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp; <br>
                         <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
+                        <datalist id="tickmarks">
+                                <option value="2"></option>
+                                <option value="4"></option>
+                                <option value="6"></option>
+                                <option value="8"></option>
+                                <option value="10"></option>
+                            </datalist>
                     </label>
 
             
@@ -92,12 +99,13 @@
                         <option  value="fishhaven">Fish Haven</option>
                     </select>
                 </label>
+            </fieldset> 
+            <fieldset> 
+                <legend>Are You In Danger?:</legend>
+                <label><input type="radio" name="dangerlevel" value="yes"> Yes</label>
+                <label><input type="radio" name="dangerlevel" value="no"> No</label>
+                <label><input type="radio" name="dangerlevel" value="maybe"> Maybe</label>
 
-                <label for="danger">Are You In Danger?: <br>
-                    <input id="danger" type="radio" name="dangerlevel" value="yes"> Yes<br>
-                    <input id="danger" type="radio" name="dangerlevel" value="no"> No<br>
-                    <input id="danger" type="radio" name="dangerlevel" value="maybe"> Maybe<br> 
-                </label>
 
                 <label for="comments">Additional Information: <br>
                     <textarea id="comments" class="width" rows="4"></textarea>
