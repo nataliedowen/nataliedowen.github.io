@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Temple Inn & Suites | Home</title>
+            <meta name="Home" content="Home page, upcoming events, contact information">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/middle.css">
+            <link rel="stylesheet" href="css/large.css">
+            <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">    </head>
+    <body>
+        <header>
+            <div class="header">
+            <picture>
+                <img src="images/logo.png" alt="Temple Inn & Suites Logo">
+            </picture>
+            <section class="name">
+                <h1>Temple Inn & Suites</h1>
+            </section>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a class="active" href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main> 
+            <h2>Highlited Temples</h2>
+                <div class="grid-container2">
+                    <div class="grid-item2">
+                        <section>
+                            <h3>Provo, Utah Temple</h3>
+                            <p><strong>Phone Number:</strong> 801-375-5775</p>
+                            <p><strong>Email:</strong> support@templeinn.com</p>
+                            <p><strong>Address:</strong> 2200 Temple Hill Dr, Provo UT 84604-1775, United States</p>
+                            <p><strong>Services:</strong></p> 
+                            <ul>
+                                <li>Clothing rental available</li>
+                                <li>Cafeteria available</li>
+                                <li>No patron housing available</li>
+                                <li>Distribution center nearby</li>
+                            </ul>
+                            <p><strong>Ordinance Schedule:</strong></p>
+                            <ul>
+                                    <li>Sealings: Monday from 7:00 AM - 10 AM, Tuesday-Saturday from 7:10 AM - 8:00 PM. Walk-ins Only</li>
+                                    <li>Baptisms: Monday from 5:30 AM - 10 AM, Tuesday-Saturday from 5:30 AM - 9:00 PM. AM Walk-ins and Appointments available</li>
+                                    <li>To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (1) 801-375-5775</li>
+                                </ul>
+                            <p><strong>Session Schedule:</strong></p>
+                            <ul>
+                                    <li>Monday sessions start every 20 minutes, beginning at 5:40 AM, and ending at 10:00 AM </li>
+                                    <li>Tuesday-Saturday sessions start every 20 minutes, beginning at 7:00 AM, and ending at 8:20 PM </li>
+                                    <li>Walk-ins available at all times</li>
+                                    <li>Appointments available daily at 8:00 AM, 9:00 AM, 9:40AM, 11:40 AM, 2:40 PM, 3:20 PM, 4:40 PM, 7:20PM, and 8:00 PM</li>
+                                    <li>Distribution center nearby</li>
+                                </ul>
+                            <p><strong>Closure Schedule:</strong> <span id="pclosure-schedule"></span></p>
+                        </section>
+                        </div>
+                        <div class="grid-item2">
+                        <section class="stats">
+                                <h3>Current Provo Weather</h3>
+                                <p>Currently: <span id="pcurrent-condition"></span></p>
+                                <p>Temperature: <span id="ptemp"></span>&deg; F</p>
+                                <p>Humidity: <span id="phumidity"></span>%</p>
+                                <p>Wind Speed: <span id="pwind-speed"></span> mph</p>
+                                <p>Wind Chill: <span id="pchill"></span>&deg; F</p>
+                             </section>
+                            </div>
+                        <div class="grid-item2">
+                        <section>
+                            <h3>Seattle, Washington Temple</h3>
+                            <p><strong>Phone Number:</strong> 425-643-5144</p>
+                            <p><strong>Email:</strong> support@templeinn.com</p>
+                            <p><strong>Address:</strong> 2808 148th Ave SE, Bellevue WA 98007-6453, United States</p>
+                            <p><strong>Services:</strong></p> 
+                            <ul>
+                                <li>Clothing rental available</li>
+                                <li>Cafeteria available</li>
+                                <li>No patron housing available</li>
+                                <li>Distribution center nearby</li>
+                            </ul>
+                            <p><strong>Ordinance Schedule:</strong></p>
+                            <ul>
+                                    <li>Sealings: Tuesday-Saturday from 9:00 AM - 8:30 PM. Walk-ins Only</li>
+                                    <li>Baptisms: Tuesday-Saturday from 6:00 AM - 8:30 PM. AM Walk-ins and Appointments available</li>
+                                    <li>To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (1) 801-375-5775</li>
+                                </ul>
+                            <p><strong>Session Schedule:</strong></p>
+                            <ul>
+                                    <li>Tuesday-Saturday sessions start every hour, beginning at 6:00 AM, and ending at 7:00 PM</li>
+                                    <li>Sessions also available at 5:30 AM, 6:30 AM, 630 PM, and 7:30 PM </li>
+                                    <li>Walk-ins and appointments available at all times</li>
+                                </ul>
+                            <p><strong>Closure Schedule:</strong> <span id="sclosure-schedule"></span></p>
+                        </section>
+                        </div>
+                        <div class="grid-item2">
+                        <section class="stats">
+                                <h3>Current Seattle Weather</h3>
+                                <p>Currently: <span id="scurrent-condition"></span></p>
+                                <p>Temperature: <span id="stemp"></span>&deg; F</p>
+                                <p>Humidity: <span id="shumidity"></span>%</p>
+                                <p>Wind Speed: <span id="swind-speed"></span> mph</p>
+                                <p>Wind Chill: <span id="schill"></span>&deg; F</p>
+                             </section>
+                            </div>
+                        <div class="grid-item2">
+                        <section>
+                            <h3>Idaho Falls, Idaho Temple</h3>
+                            <p><strong>Phone Number:</strong> 385-505-6721</p>
+                            <p><strong>Email:</strong> support@templeinn.com</p>
+                            <p><strong>Address:</strong> 136 State Street, Salt Lake City, Utah, 84044</p>
+                            <p><strong>Services:</strong></p> 
+                            <ul>
+                                <li>Clothing rental available</li>
+                                <li>Cafeteria available</li>
+                                <li>No patron housing available</li>
+                                <li>Distribution center nearby</li>
+                            </ul>
+                            <p><strong>Ordinance Schedule:</strong></p>
+                            <ul>
+                                    <li>Sealings: Monday 7:00 AM - 10 AM, Tuesday-Saturday 7:10 AM - 8:00 PM. Walk-ins Only</li>
+                                    <li>Baptisms: 5:30 AM - 10 AM, Tuesday-Saturday 5:30 AM - 9:00 PM. AM Walk-ins and Appointments available</li>
+                                    <li>To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (1) 801-375-5775</li>
+                                </ul>
+                            <p><strong>Session Schedule:</strong></p>
+                            <ul>
+                                    <li>Monday sessions start every 20 minutes, beginning at 5:40 AM, and ending at 10:00 AM </li>
+                                    <li>Tuesday-Saturday sessions start every 20 minutes, beginning at 7:00 AM, and ending at 8:20 PM </li>
+                                    <li>Walk-ins available at all times</li>
+                                    <li>Appointments available daily at 8:00 AM, 9:00 AM, 9:40AM, 11:40 AM, 2:40 PM, 3:20 PM, 4:40 PM, 7:20PM, and 8:00 PM</li>
+                                    <li>Distribution center nearby</li>
+                                </ul>
+                            <p><strong>Closure Schedule:</strong> <span id="idclosure-schedule"></span></p>
+                        </section>
+                        </div>
+                        <div class="grid-item2">
+                        <section class="stats">
+                                <h3>Current Idaho Falls Weather</h3>
+                                <p>Currently: <span id="ifcurrent-condition"></span></p>
+                                <p>Temperature: <span id="iftemp"></span>&deg; F</p>
+                                <p>Humidity: <span id="ifhumidity"></span>%</p>
+                                <p>Wind Speed: <span id="ifwind-speed"></span> mph</p>
+                                <p>Wind Chill: <span id="ifchill"></span>&deg; F</p>
+                             </section>
+                        </div>
+                        <div class="grid-item2">
+                            <section>
+                                <h3>Sacramento, California Temple</h3>
+                                <p><strong>Phone Number:</strong> 385-505-6721</p>
+                                <p><strong>Email:</strong> support@templeinn.com</p>
+                                <p><strong>Address:</strong> 136 State Street, Salt Lake City, Utah, 84044</p>
+                                <p><strong>Services:</strong></p> 
+                            <ul>
+                                <li>Clothing rental available</li>
+                                <li>Cafeteria available</li>
+                                <li>No patron housing available</li>
+                                <li>Distribution center nearby</li>
+                            </ul>
+                            <p><strong>Ordinance Schedule:</strong></p>
+                            <ul>
+                                    <li>Sealings: Monday 7:00 AM - 10 AM, Tuesday-Saturday 7:10 AM - 8:00 PM. Walk-ins Only</li>
+                                    <li>Baptisms: 5:30 AM - 10 AM, Tuesday-Saturday 5:30 AM - 9:00 PM. AM Walk-ins and Appointments available</li>
+                                    <li>To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (1) 801-375-5775</li>
+                                </ul>
+                            <p><strong>Session Schedule:</strong></p>
+                            <ul>
+                                    <li>Monday sessions start every 20 minutes, beginning at 5:40 AM, and ending at 10:00 AM </li>
+                                    <li>Tuesday-Saturday sessions start every 20 minutes, beginning at 7:00 AM, and ending at 8:20 PM </li>
+                                    <li>Walk-ins available at all times</li>
+                                    <li>Appointments available daily at 8:00 AM, 9:00 AM, 9:40AM, 11:40 AM, 2:40 PM, 3:20 PM, 4:40 PM, 7:20PM, and 8:00 PM</li>
+                                    <li>Distribution center nearby</li>
+                                </ul>
+                                <p><strong>Closure Schedule:</strong> <span id="sacclosure-schedule"></span></p>
+                            </section>
+                        </div>
+                        <div class="grid-item2">
+                        <section class="stats">
+                                <h3>Current Sacramento Weather</h3>
+                                <p>Currently: <span id="saccurrent-condition"></span></p>
+                                <p>Temperature: <span id="sactemp"></span>&deg; F</p>
+                                <p>Humidity: <span id="sachumidity"></span>%</p>
+                                <p>Wind Speed: <span id="sacwind-speed"></span> mph</p>
+                                <p>Wind Chill: <span id="sacchill"></span>&deg; F</p>
+                             </section>
+                        </div>
+                    </div>
+        </main>
+        <footer>
+            <a href="references.html">References</a>
+        </footer>
+        <script src="js/templeweath.js"></script>
+    </body>
+</html> 

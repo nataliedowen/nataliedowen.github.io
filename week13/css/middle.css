@@ -1,0 +1,61 @@
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: rgb(255, 255, 255);
+		display: block;
+	}
+	
+	nav {
+		
+		padding-left: 20px;
+		padding-right: 20px;
+	  
+	  }
+    footer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
+	}
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	  }
+
+
+	  .templesum img {
+		float: right;
+		padding: 10px;
+	  
+	  }
+
+	.grid-container2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+
+	}
+
+	.grid-item2 {
+        border-bottom: 1px solid #000000;
+	}
+	
+	iframe {
+		float: top;
+		max-width: 50%;
+	}
+
+}

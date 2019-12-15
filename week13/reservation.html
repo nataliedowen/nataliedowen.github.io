@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+            <title>Temple Inn & Suites | Home</title>
+            <meta name="Home" content="Home page, upcoming events, contact information">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/middle.css">
+            <link rel="stylesheet" href="css/large.css">
+            <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">    </head>
+    <body>
+        <header>
+            <div class="header">
+            <picture>
+                <img src="images/logo.png" alt="Temple Inn & Suites Logo">
+            </picture>
+            <section class="name">
+                <h1>Temple Inn & Suites</h1>
+            </section>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a class="active" href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main> 
+            <h2>Make a Reservation</h2>
+                <div class="container">
+                        <form>
+                          <ul class="flex-outer">
+                            <li>
+                              <label for="first-name">Full Name</label>
+                              <input type="text" id="first-name" placeholder="First Last">
+                            </li>
+                            <li>
+                              <label for="email">Email</label>
+                              <input type="email" id="email" placeholder="Enter your email here">
+                            </li>
+                            <li>
+                              <label for="phone">Phone</label>
+                              <input type="tel" id="phone" placeholder="Enter your phone here">
+                            </li>
+                            <li>
+                                <label for="home-state">Home State / Country</label>
+                                <input type="text" id="home-state" placeholder="Enter location here">
+                            </li>
+                            <li>
+                                <label for="num-rooms">Number of Rooms</label>
+                                <input type="number" id="num-rooms" placeholder="Enter number of rooms">
+                            </li>
+                            <li>
+                                    <p>Type of Rooms</p>
+                                    <ul class="flex-inner">
+                                      <li>
+                                        <input type="checkbox" id="twin">
+                                        <label for="twin">2 twin beds</label>
+                                      </li>
+                                      <li>
+                                        <input type="checkbox" id="queen">
+                                        <label for="queen">1 Queen bed</label>
+                                      </li>
+                                      <li>
+                                            <input type="checkbox" id="other">
+                                            <label for="other">Other (explain below)</label>
+                                          </li>
+                                    </ul>
+                                  </li>
+                            <li>
+                                <label for="date-start">Reservation Start Date</label>
+                                <input type="date" id="date-start" placeholder="Select date">
+                            </li>
+                            <li>
+                                <label for="date-end">Reservation End Date</label>
+                                <input type="date" id="date-end" placeholder="Select date">
+                            </li>
+                            <li>
+                                <label for="type">Location of Stay</label>
+                                    <input class="width" list="locations" id="type" name="inn-location">
+                                        <datalist id="locations">
+                                            <option value="Provo, UT"></option>
+                                            <option value="Seattle, WA"></option>
+                                            <option value="Idaho Falls, ID"></option>
+                                            <option value="Sacramento, CA"></option>
+                                        </datalist>
+                            </li>
+                            <li>
+                              <label for="comments">Special Accomidations / Comments</label>
+                              <textarea rows="6" id="comments" placeholder="Enter your comments here"></textarea>
+                            </li>
+                            <li>
+                              <button type="submit">Submit</button>
+                            </li>
+                          </ul>
+                        </form>
+                    </div>
+            </main>
+        <footer>
+            <a href="references.html">References</a>
+        </footer>
+    </body>
+    <script src="js/toggle.js"></script>
+</html>
