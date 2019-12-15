@@ -13,10 +13,11 @@ body {
   color: rgb(0, 0, 0);
 }
 
+
 /* header */
 
 header {
-  background-color: #69140E;
+  background-color: #ffd23f;
   text-align: center;
   color: black;
 }
@@ -33,6 +34,7 @@ header img {
   height: auto;
   padding-left: 20px;
   padding-top: 20px;
+  padding-bottom: 20px;
   padding-right: 20px;
 }
 
@@ -42,7 +44,7 @@ header img {
 }
 
 .name h1 {
-  color: white;
+  color: #232020;
 }
 
 /* end header */
@@ -52,13 +54,13 @@ header img {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
     padding: px;
-    color: black;
+    color: #69140e;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   padding:5px;
-  color: black;
+  color: #232020;
 }
 /* end text */
 
@@ -67,7 +69,7 @@ p {
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-  background-color: #69140E;
+  background-color: #ffd23f;
 
 }
 
@@ -82,12 +84,13 @@ nav ul {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 
 nav li a {
   display: block;
-  background-color: #69140E;
+  background-color: #ffd23f;
   text-align: center;
   padding: 8px 16px;
   text-decoration: none;
@@ -96,7 +99,7 @@ nav li a {
   }
 
 .active {
-    background-color: rgb(61, 11, 8);
+    background-color: rgb(255, 241, 180);
   }
 
 .navigation {
@@ -120,7 +123,7 @@ nav li a {
 
 .navigation a {
     display: block;
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 0.75rem;
     text-align: center;
     text-decoration: none;
@@ -142,7 +145,7 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
-  background-color: #69140E;
+  background-color: #ffd23f;
 }
 
 footer a {
@@ -207,7 +210,7 @@ main section {
 
 .templepic img {
   display: flex;
-  max-width: 100%;
+  width: 100%;
 }
 
 .button5 {
@@ -241,6 +244,27 @@ main section {
 }
 
 /* end temple page */
+
+/* start services page */
+
+
+.button6 {
+  margin-left: auto;
+  background-color: white;
+  color: black;
+  border: 2px solid #2c2c2c;
+  padding: 10px;
+  border-radius: 12px;
+ width: 100%;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.button6:hover {
+  background-color: #555555;
+  color: white;
+}
+/* end services page */
 
 /* start missionary page */
 
